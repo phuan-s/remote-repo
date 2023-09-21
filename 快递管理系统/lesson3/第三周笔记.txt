@@ -1,0 +1,38 @@
+讲评阶段：
+bug的处理思路及其过程
+position 修改为absolute之后
+ style="float: left"
+
+课程阶段：
+javascript： ECMAScript DOM BOM
+js弱类型编程语言 java强类型编程语言
+（对类型要求的强弱）
+Console.log("a") 输出
+promt("请输入") 输入框语句
+
+DOM——ducument
+xss注入 用户输入js代码——特殊符号<>不能填入
+
+var acc = document.getElementById("acc").value;
+
+function alert(){
+
+}
+
+标识符的定义
+DOM排他思维
+getElementByTagName("button") // 获取到所有的按钮数组
+Jquery——更少代码更多功能
+简化的js库
+
+登录 四个页面
+注册用户
+后台 管理员 网点
+其他 用户平台页面
+快递员平台页面
+。。。
+
+layui 直接有响应式管理系统布局
+
+jquery模板网站
+jq22.com
