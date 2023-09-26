@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+
+	</head>
+	<!-- ZUI 标准版压缩后的 CSS 文件 -->
+	<link rel="stylesheet" href="dist/css/zui.min.css">
+
+	<body>
+		<nav class="navbar navbar-inverse hidden-xs" role="navigation">
+			<div class="container-fluid">
+				<!-- 导航头部 -->
+				<div class="navbar-header">
+					<div class="navbar-header">
+						<!-- 移动设备上的导航切换按钮 -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target=".navbar-collapse-example">
+							<span class="sr-only">切换导航</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- 品牌名称或logo -->
+						<img src="img/logonew.png" alt="" style="width: 130px;">
+					</div>
+				</div>
+				<!-- 导航项目 -->
+				<div class="collapse navbar-collapse navbar-collapse-example" style="font-size: 18px; margin-top: 5px;">
+					<!-- 一般导航项目 -->
+					<ul class="nav navbar-nav" style="margin-left: 15px;">
+						<li class="active"><a href="your/nice/url">项目</a></li>
+						<li><a href="your/nice/url">需求</a></li>
+						<!-- 导航中的下拉菜单 -->
+						<li class="dropdown">
+							<a href="your/nice/url" class="dropdown-toggle" data-toggle="dropdown">管理 <b
+									class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="your/nice/url">任务</a></li>
+								...
+							</ul>
+						</li>
+					</ul>
+					<!-- 右侧的导航项目 -->
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="your/nice/url">帮助</a></li>
+						<li class="dropdown">
+							<a href="your/nice/url" class="dropdown-toggle" data-toggle="dropdown">探索 <b
+									class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="your/nice/url">敏捷开发</a></li>
+								<li><a href="your/nice/url">HTML5</a></li>
+								<li><a href="your/nice/url">Javascript</a></li>
+								<li class="divider"></li>
+								<li><a href="your/nice/url">探索宇宙</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- END .navbar-collapse -->
+			</div>
+		</nav>
+
+		<nav class="navbar navbar-inverse visible-xs" role="navigation">
+			<div class="container-fluid">
+				<!-- 导航头部 -->
+				<div class="navbar-header">
+					<div class="navbar-header">
+						<!-- 移动设备上的导航切换按钮 -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target=".navbar-collapse-example" style="margin-top: 8px;">
+							<span class="sr-only">切换导航</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- 品牌名称或logo -->
+						<img src="img/logonew.png" alt="" style="width: 130px;">
+					</div>
+				</div>
+				<!-- 导航项目 -->
+				<div class="collapse navbar-collapse navbar-collapse-example">
+					<!-- 一般导航项目 -->
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="your/nice/url">项目</a></li>
+						<li><a href="your/nice/url">需求</a></li>
+						<!-- 导航中的下拉菜单 -->
+						<li class="dropdown">
+							<a href="your/nice/url" class="dropdown-toggle" data-toggle="dropdown">管理 <b
+									class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="your/nice/url">任务</a></li>
+								...
+							</ul>
+						</li>
+					</ul>
+					<!-- 右侧的导航项目 -->
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="your/nice/url">帮助</a></li>
+						<li class="dropdown">
+							<a href="your/nice/url" class="dropdown-toggle" data-toggle="dropdown">探索 <b
+									class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="your/nice/url">敏捷开发</a></li>
+								<li><a href="your/nice/url">HTML5</a></li>
+								<li><a href="your/nice/url">Javascript</a></li>
+								<li class="divider"></li>
+								<li><a href="your/nice/url">探索宇宙</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- END .navbar-collapse -->
+			</div>
+		</nav>
+
+		<div id="myNiceCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -20px;">
+			<!-- 圆点指示器 -->
+			<ol class="carousel-indicators">
+				<li data-target="#myNiceCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myNiceCarousel" data-slide-to="1"></li>
+				<li data-target="#myNiceCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- 轮播项目 -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img alt="First slide" src="img/banner0.jpeg">
+				</div>
+				<div class="item">
+					<img alt="Second slide" src="img/banner1.jpeg">
+				</div>
+				<div class="item">
+					<img alt="Third slide" src="img/banner2.png">
+				</div>
+			</div>
+
+			<!-- 项目切换按钮 -->
+			<a class="left carousel-control" href="#myNiceCarousel" data-slide="prev">
+				<span class="icon icon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#myNiceCarousel" data-slide="next">
+				<span class="icon icon-chevron-right"></span>
+			</a>
+		</div>
+
+		<!-- 主体部分1  栅格系统，一行分为12等分-->
+		<div class="col-md-12 col-xs-12">
+			<div class="col-md-2"></div>
+			<div class="col-md-4"><img src="img/survey.png" alt=""></div>
+			<div class="col-md-4">
+				<h1>问卷调查,从“星"开始 </h1>
+				完美集成微信群发、红包抽奖、问卷密周查、满意度调查等各类在线问卷调查。
+				<br>
+				<br>
+				<div class="col-md-12 col-xs-12">
+					<div class="col-md-6 col-xs-6">
+						轻松导入问卷
+						<br>
+						多渠道分发问卷
+						<br>
+						完美适配移动端
+					</div>
+					<div class="col-md-6 col-xs-6">
+						轻松导入问卷
+						<br>
+						多渠道分发问卷
+						<br>
+						完美适配移动端
+					</div>
+				</div>
+				<button class="btn btn-lg btn-primary" type="button" style="margin-top: 15px;">问卷调查介绍</button>
+			</div>
+		</div>
+		<!-- 移动端加个小间距 -->
+		<div class="col-xs-12" style="height: 20px">
+		</div>
+		<!-- 主体部分2 -->
+		<div class="col-md-12">
+			<div class="col-md-2"></div>
+			<div class="col-md-4">
+				<h1>十分钟搭建您的在线考试系统</h1>
+				深度结合微信考试场景，在教学考试、培训考试、业务考试等领域，问卷星在线考试系统对您有助益。
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>...</th>
+							<th>...</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+						<tr>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+						<tr>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+						<tr>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+						<tr>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-4"><img src="img/test.png" alt=""></div>
+		</div>
+
+		<!-- 主体部分3-->
+		<div class="col-md-12 col-xs-12" style="background-color: #006eb7;height: 330px; color: white">
+			<!-- logo部分 -->
+			<div class="col-md-12 col-xs-12" style="margin-top: 20px; margin-bottom: 20px;">
+				<div class="col-md-2 col-xs-3"></div>
+				<div class="col-md-4 col-xs-6">
+					<img src="img/logo_03.png" alt="" style="width: 200px;">
+					<br>
+					<font size="4px" color="">动手做实验，轻松学编程</font>
+				</div>
+			</div>
+			<div class="col-md-12 col-xs-12">
+
+				<div class="col-md-2 col-xs-2">
+
+				</div>
+				<div class="col-md-2 col-xs-2">
+					<font size="4px" color="">公司</font>
+					<br><br>
+					关于我们
+					<br>
+					联系我们
+					<br>
+					加入我们
+					<br>
+					技术博客
+				</div>
+				<div class="col-md-2 col-xs-2">
+					<font size="4px" color="">合作</font>
+					<br><br>
+					我要投稿
+					<br>
+					教师合作
+					<br>
+					高效合作
+					<br>
+					友情链接
+				</div>
+				<div class="col-md-2 col-xs-2">
+					<font size="4px" color="">服务</font>
+					<br><br>
+					关于我们
+					<br>
+					联系我们
+					<br>
+					加入我们
+					<br>
+					技术博客
+				</div>
+				<div class="col-md-2 col-xs-2">
+					<font size="4px" color="">学习路径</font>
+					<br><br>
+					关于我们
+					<br>
+					联系我们
+					<br>
+					加入我们
+					<br>
+					技术博客
+				</div>
+				<div class="col-md-2 col-xs-2">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 col-xs-12" style="background-color: #145ccd;height: 20px; text-align: center; color: #9fa5b1;">
+			Copyright @2013-2016 在线教育|蜀ICP备00000000号
+			
+		</div>
+	</body>
+	<!-- ZUI Javascript 依赖 jQuery -->
+	<script src="dist/lib/jquery/jquery.js"></script>
+	<!-- ZUI 标准版压缩后的 JavaScript 文件 -->
+	<script src="dist/js/zui.min.js"></script>
+	<script src="js/demo0925.js"></script>
+</html>

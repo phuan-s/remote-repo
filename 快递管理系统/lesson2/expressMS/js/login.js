@@ -1,6 +1,7 @@
-var flag = 1; // 1表示明文显示， 0表示密文显示
+// var flag = 1; // 1表示明文显示， 0表示密文显示
 
 function login(){
+	alert("shibai");
 	var acc1 = document.getElementById("account1").value;
 	var pw1 = document.getElementById("pw1").value;
 	
@@ -26,9 +27,9 @@ function change(){
 		flag = 1;
 	}
 	
-	// BOM
-$("button").click(function(){
-	$(this).css("background", "pink")
-	$(this).siblings("button").css("background","")
-}
-)
+// 	// BOM
+// $("button").click(function(){
+// 	$(this).css("background", "pink")
+// 	$(this).siblings("button").css("background","")
+// }
+// )

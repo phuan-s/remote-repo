@@ -1,0 +1,42 @@
+框架常用附属功能
+	①新增弹窗——ZUI对话框（触发弹窗） 用JavaScript实现 方法中初始化，参数如上。modalbody放前端内容。MS中新增网点、快递员之类的可以用新增弹窗新增（todo）。可移动可启用moveable: ture
+	②echarts图标  先引入echarts依赖(js) 没有效果的话看看cart的id是否和js匹配。 more in apache echarts。 柱状图可能可以加入（对比每个网点的订单（寄出地址，收件地址）及用户量）
+	③layui弹窗 getElementById()获取DOM对象 layui弹出层好看很多，注意导入css和js。
+	④js正则表达式（邮箱验证） 描述好用ai（GPT）生成或者百度即可
+	email.onchange = function(){
+			
+	}
+
+
+响应式——自己封装响应式
+	hidden-xs ipad、电脑、大屏幕可见
+	visible-xs 手机端可见的
+	在div的class里面添加
+
+	移动端导航条另外做
+
+
+轮播图  原点指示器
+	图片大小不一样不会自动控制大小，ZUI轮播图片分辨率大小最好是一致的。ZUI有默认做好响应式
+	
+
+栅格系统
+	栅格系统可以搭配响应式
+	行row放class 栅格
+<div class="col-md-12">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-4"></div>
+
+		</div>
+
+col-md-12——》在pc端之类的使用栅格
+col-xs-12 ——》在手机端也使用栅格
+
+实现实例
+
+物流登陆中
+中物联课程思政平台
+
+jdk1.8
+idea2019
