@@ -1,0 +1,25 @@
+
+
+form 表单套住， 最简单提交方式
+按钮 type:submit
+===============
+提交到servlet
+
+创建submit
+创建servlet包
+内涵 class：LoginServlet
+urlPatterns = {“doLogin”}
+
+dopost
+doget
+
+前端中给name
+通过name拿到前端数据
+
+
+navicat
+
+sql复习
+增删改查
+
+分页查询
